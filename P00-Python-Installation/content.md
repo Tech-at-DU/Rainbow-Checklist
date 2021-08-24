@@ -119,4 +119,4 @@ When you want to exit interactive mode call the exit function by typing `exit()`
 
 ## Next Steps
 
-Awesome! Click [here][(P01-Code-Organization/content.md) to move onto the next section about organizing your code.
+Awesome! Click [here](P01-Code-Organization/content.md) to move onto the next section about organizing your code.

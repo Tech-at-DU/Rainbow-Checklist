@@ -328,4 +328,4 @@ This is where our second type of loop will come in handy. We really just want to
 
 ## Next Steps
 
-Click [here][(P04-Putting-It-All-Together/content.md) to move onto the next section where we will put everything together.
+Click [here](P04-Putting-It-All-Together/content.md) to move onto the next section where we will put everything together.
