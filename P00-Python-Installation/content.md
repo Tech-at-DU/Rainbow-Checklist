@@ -1,8 +1,4 @@
----
-title: Captain Rainbow's Color Checklist
-slug: installation
----
-## Captain Rainbow's Color Checklist
+# Captain Rainbow's Color Checklist
 
 ![](the-truth-about-rainbows.jpg)
 
@@ -37,6 +33,7 @@ You can use the terminal to check which version of python you're using.
 * Double click the terminal to open it
 
 At the terminal prompt type
+
 ```
 $ python --version
 ```
@@ -50,6 +47,7 @@ $ python3 --version
 This tutorial requires Python version 3 to run. If you had to run the second command to specify version 3 then instead of running ```python ./myfilename.py``` you'll want to run ```python3 ./myfilename.py``` to execute the python script you're going to write.
 
 ##  Getting Started
+
 To begin with we'll create a directory for the project to live in. Use the `mkdir` command to do this.
 In the terminal enter
 
@@ -74,6 +72,7 @@ Now if you use the `ls` command you'll see that the directory is empty. Use ```t
 ```
 $ touch checklist.py
 ```
+
 You should be able to verify that a new empty file was created named checklist.py
 
 ## Choose an Editor
@@ -81,12 +80,12 @@ You should be able to verify that a new empty file was created named checklist.p
 There are many to choose from and each has their following. Popular choices include Atom, Sublime Text, Visual Studio Code, and for the more adventurous souls VIM. This tutorial will remain editor agnostic so choose the one that is the most comfortable for you.
 
 ## A Note About The Atom Text Editor and Flake8
+
 If you are using Atom you may come across an error regarding the flake8 linter. A linter just goes through and verifies that your code has the proper formatting and syntax and is very helpful when it works. For some reason however Atom comes with a deprecated linter that fails to work with Python. You will want to go into the Atom menu and choose `Preferences...`.
 
 Click on `Packages` and search for flake8.
 
 You'll want to disable or uninstall the flake8 package to get rid of the errors that show up.
-
 
 ## Write Your First Line of Python
 
@@ -95,6 +94,7 @@ Open `checklist.py` in your chosen text editor and write the following line of c
 ```python
 print("Hello World")
 ```
+
 Save the file and in your terminal run the following command.
 
 ```
@@ -108,6 +108,7 @@ Hello World
 ```
 
 ## Testing Things Out
+
 Sometimes you may want to run a few lines of code separately just to explore the language. Python includes a handy mode that allows you to run commands on the fly.
 
 Typing `python` in the terminal window will open the python interpreter in interactive mode.
@@ -115,3 +116,7 @@ Typing `python` in the terminal window will open the python interpreter in inter
 You may find it helpful to test some code in interactive mode and verify it works before putting it in a project.
 
 When you want to exit interactive mode call the exit function by typing `exit()` or hit ctl-d keys on the keyboard.
+
+## Next Steps
+
+Awesome! Click [here][(P01-Code-Organization/content.md) to move onto the next section about organizing your code.

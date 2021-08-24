@@ -1,8 +1,4 @@
----
-title: Writing Helper Functions
-slug: helper-functions
----
-## Helper Functions
+# Helper Functions
 You may see a need for a few more functions to help us out with our checklist.
 
 Right now we can see a single item if we know its index, but we should be able to see the entire list.
@@ -17,8 +13,6 @@ for list_item in checklist:
 In order to view the entire list at once we'll need to get every individual item in the list. We'll need to run a bit of code over and over again in order for this to work. We do this so frequently that we're given many different tools to work with. We will make use of two different types of loops in this tutorial-- the **for** loop and **while** loop.
 
 The **for** loop in python is simple and powerful at the same time. Python takes care of a number of things for us that other languages do not. The syntax that we'll use is as follows:
-
-
 
 Here python will iterate over all the items in checklist and pass each value into the code block below it as the value list_item.
 I chose to use "list_item" but it could be valid variable syntax. Just as our functions needed to be indented so too do the statements you want to run on every iteration.
@@ -171,10 +165,11 @@ Here we're calling the format method on a string. The format method will take ca
 You may wish to replace the print statement in the above function with the updated print statement using the format method.
 
 Feel free to adjust the formatting to print the way you want in the terminal.
->
+
 >As a stretch challenge try adding colors to the terminal output.
->
+
 ## mark_completed
+
 We need a helper function that marks our items as completed.
 Fortunately we have all the skills needed to write this function.
 
@@ -201,7 +196,6 @@ After he marks his shoes off the list he should see
 
 You can type the character by pressing option-v together.
 
->[info]
 >Look at how we implemented the update and read functions to get an idea about how to interact with the item you want to work with. Use the `+` operator or the string format methods described in the list_all_items function to append a checkmark to the front of the item in the checklist.
 
 Remember that you need the index of the item you want to work with.
@@ -262,6 +256,7 @@ In order to fully test this function you'll want to be sure that your testing co
 Don't delete any of the tests that you've already written. All tests should be run to make sure that everything still works. In a later tutorial we'll see how to automate this process in cases where we have a lot of tests or when they take awhile to complete.
 
 ## user_input function
+
 In order for our program to be useful we'll need to be able to accept user input from the terminal. We will use the built-in `input` function to do this.
 
 Let's create a function to prompt the user.
@@ -284,6 +279,7 @@ print(user_value)
 ```
 
 ## Overview
+
 So far we've created and tested every one of the functions that we'll need though we don't really have a working program yet.
 
 Your `checklist.py` file should look similiar to this:
@@ -329,3 +325,7 @@ We only need a couple more additions to get this working properly.
 When our program completes, everything we've done in memory is thrown out. We want to be able to keep the program open until we want to shut it down.
 
 This is where our second type of loop will come in handy. We really just want to loop a few lines of code until our user wants to quit. This brings us to our last section -- the while loop.
+
+## Next Steps
+
+Click [here][(P04-Putting-It-All-Together/content.md) to move onto the next section where we will put everything together.

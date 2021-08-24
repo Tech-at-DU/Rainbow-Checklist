@@ -1,8 +1,4 @@
----
-title: Create, Read, Update, and Destroy Functions
-slug: crud
----
-## Creating a Checklist
+# Creating a Checklist
 
 Everything that we need to do will exist in the computer's memory somewhere. First we need to be able to allocate some of that memory to hold all the items in our checklist. This sounds harder than it will actually be.
 
@@ -34,14 +30,14 @@ A list can be thought of as a series of blocks in memory that live next to each 
 
 When we want to create a new item in our checklist we'll simply add the next block of memory and store our value there. Python behind the scenes is smart enough to make sure our blocks are the right size and that there's space to add as many blocks as we want.  
 
->
 > A **data type** is the classification that specifies the kind of data that exists somewhere. Python is considered a **loosely typed** language which means you don't have to tell the computer the type of value it should expect to store in memory. This convenience has some drawbacks that we will encounter later.
->
 
 ## Variables
+
 A variable simply points to a space in memory that is able to store something. It can hold an individual value like a number, but it can also hold what is called an **object**. Our list is not a single piece of data like a number or a word -- it's an **object**. This means it contains more than just the data we put in it. Along with the data in memory, objects supply (for *nearly* free) code that helps us manage that data.
 
 ## Declaring Variables
+
 So the following line
 
 ```python
@@ -61,6 +57,7 @@ The first example is more explicit so that is what I'll use.
 As we'll see later, our list object already includes within it most of the code we'll need to work with it.
 
 ## Making our Code Reusable with Functions
+
 Writing each command explicitly isn't a terribly useful way to program. Ideally you will want to be able to re-use as much code as possible. This means breaking it up into small chunks that can be called on when needed. These chunks of code are called **functions** and are how we will structure most of our program.
 
 A function is just a collection of code that allows for reuse and is written like this:
@@ -101,6 +98,7 @@ Lets create our first useful functions using what we learned when we ran the cod
 Now we have our checklist but we can't use it yet. There are four main functions that we need to write in order for this list to be useful. These functions are so common that we refer to them by the acronym CRUD -- create, read, update, and destroy.
 
 ## Create
+
 Add these lines to checklist.py and run the file in the terminal as explained in section 00 above.
 
 ```python
@@ -149,9 +147,9 @@ Hopefully you can see that Python interprets anything in quotes as an actual val
 
 In the second example we are referring to the variable we declared in the function declaration.
 
-Just like magic you can add anything you want (within reason) to your list. Do you feel the power coursing through your fingers yet? 
+Just like magic you can add anything you want (within reason) to your list. Do you feel the power coursing through your fingers yet?
 
-No? 
+No?
 
 Well just wait a bit then.
 
@@ -198,6 +196,7 @@ def read(index):
 ```
 
 ## Update
+
 Try running these lines in Python:
 
 ```python
@@ -225,6 +224,7 @@ def update(index, item):
 So that takes care of the first three letters, C, R, and U. Now we just the the last one - Destroy.
 
 ## Removing Items
+
 Here we'll need to access a different chunk of code -- or **method** -- inside our object. Methods and functions are very similar concepts except that methods are what we call blocks of code inside of objects. Methods are called using **dot notation** and functions are not.
 
 Enter the pop method.
@@ -256,6 +256,7 @@ def destroy(index):
 There are many more methods that are available inside the Python list object. Check out the [python list documentation](https://docs.python.org/3/tutorial/datastructures.html) to see what other methods are available to you.
 
 ## Testing
+
 Our `checklist.py` file we wrote so far should be organized like this:
 
 ```python
@@ -350,3 +351,7 @@ We see an error because we tried to access the second item in a one item list. T
 This may be something we'll have to think about if we were going to implement this in production. If this function were called with an invalid index value our program would crash and people would be sad. As a stretch challenge you can update any applicable functions that we have made with the ability to verify that all index values are accurate.
 
 Remove or comment out the line that throws the error so we can move on.
+
+## Next Steps
+
+Click [here][(P03-Writing-Helper-Functions/content.md) to move onto the next section about writing helper functions.

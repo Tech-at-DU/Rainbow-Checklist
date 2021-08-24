@@ -1,8 +1,5 @@
----
-title: Putting It All Together
-slug: putting-it-together
----
-## The While Loop
+# The While Loop
+
 Running a chunk of code over and over again is so common that we're given many ways of accomplishing this one task. Many people have their own preferred looping strategies and there may be many valid ways to approach any particular problem. We've seen in our `list_all_items` helper function a way to loop over a specific number of values, but what if we don't know how many times we'll need to loop over a given piece of code?
 
 The `while` loop will help us out in this case as it will continue to loop over a section of code until a specified condition is met. Here our condition will be met when the user selects the Q option in the terminal.
@@ -31,6 +28,7 @@ Here we have set a variable named running to ```True```. At the beginning of eve
 This code will never finish running as is, so we'll need a way to set `running` to False somewhere.
 
 ## Fix the Infinite Loop
+
 An easy way to fix this is to add an option to our `select` function that allows for the user to quit.
 
 What we should do is have the function return a value of True for every option except for one.
@@ -121,9 +119,11 @@ At this point you should have a simple working checklist that looks like this
 ![](rainbow_checklist_running.gif)
 
 ## Finish things up
+
 The remainder of the program can be finished with the concepts you've already learned here.
 
 **Items left for you to do:**
+
 * Add read, update and destroy options to the select function.
 * Allow for the user to use upper or lowercase for function selection.
 * Handle errors caused by invalid user input (invalid indexes).
@@ -131,12 +131,13 @@ The remainder of the program can be finished with the concepts you've already le
 Was this too easy?
 
 **Here are some stretch challenges** :
+
 * Make the user prompt easier to read by clearing the terminal output between user selections.
 * Add function that un-checks a checked item in the list.
 * Display colored text in terminal.
 
-
 ## Conclusion
+
 Here we've seen how to approach designing a simple application. We started by defining the features we needed with user stories. Then we took those stories and implemented the features we needed as functions that could be executed. All our functions were thoroughly tested so that we knew that all our code was in working order before shipping to the user.
 
 We also saw that **objects** can contain both data and code that can be executed. Soon we'll explore how to create our own objects to unlock the power of **object oriented programming**. In addition, we'll explore some testing tools that help us to write code with fewer bugs.
