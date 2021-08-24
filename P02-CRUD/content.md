@@ -354,4 +354,4 @@ Remove or comment out the line that throws the error so we can move on.
 
 ## Next Steps
 
-Click [here](P03-Writing-Helper-Functions/content.md) to move onto the next section about writing helper functions.
+Click [here](../P03-Writing-Helper-Functions/content.md) to move onto the next section about writing helper functions.

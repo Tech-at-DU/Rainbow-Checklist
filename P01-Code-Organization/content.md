@@ -57,4 +57,4 @@ It is this concept, that consistent code is easier to read, that lies behind the
 
 ## Next Steps
 
-Click [here](P02-CRUD/content.md) to move onto the next section about the CRUD process.
+Click [here](../P02-CRUD/content.md) to move onto the next section about the CRUD process.
