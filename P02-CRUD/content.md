@@ -352,6 +352,14 @@ This may be something we'll have to think about if we were going to implement th
 
 Remove or comment out the line that throws the error so we can move on.
 
+# Commit
+
+Commit your changes to GitHub. Feel free to use a custom message of your own, as long as it accuratley describes what you did.
+
+```bash
+$ git add . && git commit -m "created CRUD functions" && git push
+```
+
 ## Next Steps
 
 Click [here](../P03-Writing-Helper-Functions/content.md) to move onto the next section about writing helper functions.

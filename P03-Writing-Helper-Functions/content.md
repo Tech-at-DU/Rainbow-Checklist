@@ -326,6 +326,14 @@ When our program completes, everything we've done in memory is thrown out. We wa
 
 This is where our second type of loop will come in handy. We really just want to loop a few lines of code until our user wants to quit. This brings us to our last section -- the while loop.
 
+# Commit
+
+Commit your changes to GitHub. Feel free to use a custom message of your own, as long as it accuratley describes what you did.
+
+```bash
+$ git add . && git commit -m "created helper functions" && git push
+```
+
 ## Next Steps
 
 Click [here](../P04-Putting-It-All-Together/content.md) to move onto the next section where we will put everything together.

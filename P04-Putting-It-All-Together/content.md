@@ -118,6 +118,14 @@ while running:
 At this point you should have a simple working checklist that looks like this
 ![](rainbow_checklist_running.gif)
 
+# Commit
+
+Commit your changes to GitHub. Feel free to use a custom message of your own, as long as it accuratley describes what you did.
+
+```bash
+$ git add . && git commit -m "implemented while loops" && git push
+```
+
 ## Finish things up
 
 The remainder of the program can be finished with the concepts you've already learned here.
