@@ -15,4 +15,4 @@ Read and complete these chapters in order.
 1. [Organizing Code](P01-Code-Organization/content.md)
 1. [CRUD](P02-CRUD/content.md)
 1. [Writing Helper Functions](P03-Writing-Helper-Functions/content.md)
-1. [Putting It All Together](P03-Putting-It-All-Together/content.md)
+1. [Putting It All Together](P04-Putting-It-All-Together/content.md)
